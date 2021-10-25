@@ -1,6 +1,62 @@
 
 public class Main {
 	public static void main(String args[]) {
-		System.out.println("今日は月曜日です");
+		int a;
+		int b;
+		a = 20;
+		b = a + 5;
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println("私の好きな二重引用符は”です");
+		a++;
+		System.out.println(a);
+		float f = 3;
+		double d = f;
+		System.out.println(f);
+		System.out.println(d);
+		int age = (int)3.2;
+		System.out.println(age);
+		double db = 8.5 / 2;
+		long l = 5 + 2L;
+		System.out.println(db);
+		System.out.println(l);
+		String msg = "私の年齢は" + 23;
+		System.out.println(msg);
+		String name = "すがわら";
+		String message;
+		message = name + "さん、こんにちは";
+		System.out.println(message);
+		System.out.println("私の名前は");
+		System.out.println(name);
+		System.out.println("です。");
+		int a1 = 5;
+		int b1 = 3;
+		int m = Math.max(a1, b1);
+		System.out.println("比較実験:" + a1 + "と" + b1+ "とで大きい方は" + m);
+		String age1 = "31";
+		int n = Integer.parseInt(age1);
+		System.out.println("あなたは来年、" + (n + 1) + "歳になりますね。");
+		int r = new java.util.Random().nextInt(90);
+		System.out.println("あなたは多分" + r + "歳ですね?");
+//		System.out.println("あなたの名前を入力してください");
+//		String name1 = new java.util.Scanner(System.in).nextLine();
+//		System.out.println("あなたの年齢を入力してください");
+//		int age2 = new java.util.Scanner(System.in).nextInt();
+//		System.out.println("ようこそ、" + age2 + "歳の" + name1 + "さん");
+		int x = 5;
+		int y = 10;
+		String ans = "x+yは" + (x + y);
+		System.out.println(ans);
+		System.out.println("ようこそ占いの館へ");
+		System.out.println("あなたの名前を入力してください");
+		String name3 = new java.util.Scanner(System.in).nextLine();
+		System.out.println("あなたの年齢を入力してください");
+		String ageString = new java.util.Scanner(System.in).nextLine();
+		int age3 = Integer.parseInt(ageString);
+		int fortune = new java.util.Random().nextInt(4);
+		fortune++;
+		System.out.println("占いの結果が出ました");
+		System.out.println(age3 + "歳の" + name3 + "さん、あなたの運気番号は" + fortune + "です");
+		System.out.println("1:大吉2:中吉3:吉4:凶");
 	}
 }
