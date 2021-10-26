@@ -66,33 +66,33 @@ public class Main3 {
 		}
 
 		System.out.println("[メニュー]1:検索2:登録3:削除4:変更2");
-		int selected = new java.util.Scanner(System.in).nextInt();
-		switch (selected) {
-		case 1:
-			System.out.println("検索します");
-			break;
-		case 2:
-			System.out.println("登録します");
-			break;
-		case 3:
-			System.out.println("削除します");
-			break;
-		case 4:
-			System.out.println("変更します");
-			break;
-		}
+//		int selected = new java.util.Scanner(System.in).nextInt();
+//		switch (selected) {
+//		case 1:
+//			System.out.println("検索します");
+//			break;
+//		case 2:
+//			System.out.println("登録します");
+//			break;
+//		case 3:
+//			System.out.println("削除します");
+//			break;
+//		case 4:
+//			System.out.println("変更します");
+//			break;
+//		}
 
 		System.out.println("【数当てゲーム】");
-		int ans = new java.util.Random().nextInt(10);
-		for (int i = 0; i < 5; i++) {
-			System.out.println("0-9の数字を入力してください");
-			int num = new java.util.Scanner(System.in).nextInt();
-			if (num == ans) {
-				System.out.println("アタリ");
-			} else {
-				System.out.println("違います");
-			}
-		}
+//		int ans = new java.util.Random().nextInt(10);
+//		for (int i = 0; i < 5; i++) {
+//			System.out.println("0-9の数字を入力してください");
+//			int num = new java.util.Scanner(System.in).nextInt();
+//			if (num == ans) {
+//				System.out.println("アタリ");
+//			} else {ß
+//				System.out.println("違います");
+//			}
+//		}
 		System.out.println("ゲームを終了します");
 	}
 }
