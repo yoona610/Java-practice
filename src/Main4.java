@@ -81,5 +81,49 @@ public class Main4 {
 		arrayB = arrayA;
 		arrayB[0] = 100;
 		System.out.println(arrayA[0]);
+
+		boolean judge = true;
+		if (judge == true) {
+			int[] array = { 1, 2, 3 };
+//			array = null;
+			array[0] = 10;
+			System.out.println(array[0]);
+		}
+
+		int[][] scores4 = new int[2][3];
+		scores4[0][0] = 40;
+		scores4[0][1] = 50;
+		scores4[0][2] = 60;
+		scores4[1][0] = 80;
+		scores4[1][1] = 60;
+		scores4[1][2] = 70;
+		System.out.println(scores4[1][1]);
+
+		int[][] scores5 = { { 40, 50, 60 }, { 80, 60, 70 } };
+		System.out.println(scores5.length);
+		System.out.println(scores5[0].length);
+
+		int[] points = new int[4];
+		double[] weights = new double[5];
+		boolean[] answers = new boolean[3];
+		String[] names = new String[3];
+
+		int[] moneyList = { 121902, 8302, 55150 };
+		for (int i = 0; i < moneyList.length; i++) {
+			System.out.println(moneyList[i]);
+		}
+
+		for (int value5 : moneyList) {
+			System.out.println(value5);
+		}
+
+		int[] numbers = { 3, 4, 9 };
+		System.out.println("一桁の数字を入力してください");
+		int input = new java.util.Scanner(System.in).nextInt();
+		for(int n: numbers) {
+			if(n == input) {
+				System.out.println("アタリ");
+			}
+		}
 	}
 }
