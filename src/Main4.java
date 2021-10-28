@@ -103,10 +103,10 @@ public class Main4 {
 		System.out.println(scores5.length);
 		System.out.println(scores5[0].length);
 
-		int[] points = new int[4];
-		double[] weights = new double[5];
-		boolean[] answers = new boolean[3];
-		String[] names = new String[3];
+//		int[] points = new int[4];
+//		double[] weights = new double[5];
+//		boolean[] answers = new boolean[3];
+//		String[] names = new String[3];
 
 		int[] moneyList = { 121902, 8302, 55150 };
 		for (int i = 0; i < moneyList.length; i++) {
@@ -117,13 +117,13 @@ public class Main4 {
 			System.out.println(value5);
 		}
 
-		int[] numbers = { 3, 4, 9 };
+//		int[] numbers = { 3, 4, 9 };
 		System.out.println("一桁の数字を入力してください");
-		int input = new java.util.Scanner(System.in).nextInt();
-		for(int n: numbers) {
-			if(n == input) {
-				System.out.println("アタリ");
-			}
-		}
+//		int input = new java.util.Scanner(System.in).nextInt();
+//		for(int n: numbers) {
+//			if(n == input) {
+//				System.out.println("アタリ");
+//			}
+//		}
 	}
 }
