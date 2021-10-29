@@ -11,7 +11,17 @@ public class Main5 {
 		System.out.println(add(100, 27));
 		System.out.println(add(3.5, 2.7));
 		System.out.println(add("NCT", "127"));
-		System.out.println(add(100, 20, 7));
+//		int[] array = { 1, 2, 3 };
+//		printArray(array);
+//		incArray(array);
+//		for (int i : array) {
+//			System.out.println(i);
+//		}
+		int[] array = makeArray(3);
+		for (int i : array) {
+			System.out.println(i);
+		}
+
 	}
 
 	public static void hello(String name) {
@@ -43,4 +53,23 @@ public class Main5 {
 		return x + y + z;
 	}
 
+	public static void printArray(int[] array1) {
+		for (int element : array1) {
+			System.out.println(element);
+		}
+	}
+
+	public static void incArray(int[] array) {
+		for (int i = 0; i < array.length; i++) {
+			array[i]++;
+		}
+	}
+
+	public static int[] makeArray(int size) {
+		int[] newArray = new int[size];
+		for (int i = 0; i < newArray.length; i++) {
+			newArray[i] = i;
+		}
+		return newArray;
+	}
 }
